@@ -3,7 +3,7 @@
     
     //const title = "Welcome to the KWK Scrollytelling Template";
     //const subtitle = "A journey through data, creativity, and code";
-    let img = 'frame1.png';
+    let img = 'frame2.png';
 </script>
 
 <FrameStructure {img}/>

@@ -7,7 +7,7 @@
 
     const series = [
         {
-            name: "Group 1",
+            name: "Dallas County",
             data: [
                 [1990, 3],
                 [2000, 4],
@@ -17,7 +17,7 @@
             color: "#8427c9",
         },
         {
-            name: "Group 2",
+            name: "Harris County",
             data: [
                 [1990, 2],
                 [2000, 5],

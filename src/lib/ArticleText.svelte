@@ -4,7 +4,7 @@
 
 <div class="article-text">
     <p>
-        {@render children()}
+        {@render children?.()}
     </p>
 </div>
 
