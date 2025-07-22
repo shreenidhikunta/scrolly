@@ -10,7 +10,7 @@
             type: "pie",
         },
         title: {
-            text: "An Example Pie Chart",
+            text: "Cities with the Most Redlining",
         },
         plotOptions: {
             pie: {
@@ -42,7 +42,7 @@
                 name: "Group",
                 data: [
                     {
-                        name: "Group 1",
+                        name: "Dallas",
                         y: 151,
                     },
                     {
@@ -107,31 +107,19 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <strong>Welcome to the KWK Data Scrollytelling Template!</strong
-                >
+                Redlining goes beyond just preventing African Americans from getting housing. It can also prevent getting access to good schools and having good education.
             </ArticleText>
 
             <ArticleText>
-                This is a <strong>basic example</strong> of how you might create
-                a scrollytelling piece using Svelte and Highcharts.
+                According to this graph, around 20% of African Americans struggle with housing.
             </ArticleText>
 
             <ArticleText>
-                You can use this template as a <strong>starting point</strong>
-                for your project.
-                <br /><br />
-                Or, if you want to build something from scratch, you can use it as
-                a <strong>reference</strong> for specific functionality.
+                The effects of this lack of high quality education lead to more issues in career growth.
             </ArticleText>
 
             <ArticleText>
-                This is <strong>just one way</strong> that scrollytelling can
-                look.
-                <br /><br />
-                <strong>
-                    If you use this template, be sure to modify it and make it
-                    your own!
-                </strong>
+                Thus, we see an overall lack of wealth. 
             </ArticleText>
         {/snippet}
     </Scroller>
@@ -140,6 +128,7 @@
 <style>
     .chart {
         width: 90%;
-        margin: 0px auto;
+        margin: 10px auto;
+        padding-top: 100px;
     }
 </style>
